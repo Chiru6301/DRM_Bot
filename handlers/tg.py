@@ -168,7 +168,7 @@ class TgClient(TgHandler):
 
             msg3 = await self.bot.send_message(
                 self.m.chat.id,
-                text="**Batch Name :-**"
+                text="**Caption Name :-**"
             )
             user_caption = await self.bot.listen(self.m.chat.id)
             caption = user_caption.text
