@@ -57,10 +57,10 @@ class Store(object):
 
 # Format
 class Msg(object):
-    START_MSG = "**/ankit**"
+    START_MSG = "**/pro**"
 
     TXT_MSG = "Hey <b>{user},"\
-        "\n\n`I'm Multi-Talented Robot. I Can Download Many Type of Links.`"\
+        "\n\n`I'm Ankit Shakya Robot. I Can Download Many Type of Links.`"\
             "\n\nSend a TXT or HTML file :-</b>"
 
     ERROR_MSG = "<b>DL Failed ({no_of_files}) :-</b> "\
